@@ -1,0 +1,10 @@
+﻿  traversalUsingStack.cpp
+  treeUsingArray.cpp
+C:\Users\Hammad Ishtiaq\source\Dsa oop\DSA\Binary tree\simpleTree\simpleTree\treeUsingArray.cpp(84,22): warning C4101: 'val': unreferenced local variable
+C:\Users\Hammad Ishtiaq\source\Dsa oop\DSA\Binary tree\simpleTree\simpleTree\treeUsingArray.cpp(12,23): warning C4244: 'initializing': conversion from 'double' to 'unsigned int', possible loss of data
+C:\Users\Hammad Ishtiaq\source\Dsa oop\DSA\Binary tree\simpleTree\simpleTree\treeUsingArray.cpp(10): message : while compiling class template member function 'TreeUsingArray<int>::TreeUsingArray(int)'
+C:\Users\Hammad Ishtiaq\source\Dsa oop\DSA\Binary tree\simpleTree\simpleTree\treeUsingArray.cpp(79): message : see reference to function template instantiation 'TreeUsingArray<int>::TreeUsingArray(int)' being compiled
+C:\Users\Hammad Ishtiaq\source\Dsa oop\DSA\Binary tree\simpleTree\simpleTree\treeUsingArray.cpp(79): message : see reference to class template instantiation 'TreeUsingArray<int>' being compiled
+C:\Users\Hammad Ishtiaq\source\Dsa oop\DSA\Binary tree\simpleTree\simpleTree\treeUsingArray.cpp(13,27): warning C4244: 'initializing': conversion from 'double' to 'unsigned int', possible loss of data
+  Generating Code...
+  simpleTree.vcxproj -> C:\Users\Hammad Ishtiaq\source\Dsa oop\DSA\Binary tree\simpleTree\Debug\simpleTree.exe

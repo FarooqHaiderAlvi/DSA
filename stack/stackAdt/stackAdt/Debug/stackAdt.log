@@ -1,0 +1,15 @@
+﻿  stackUsingArray.cpp
+C:\Users\Hammad Ishtiaq\source\Dsa oop\DSA\stack\stackAdt\stackAdt\stackUsingArray.cpp(52,6): warning C4101: 't': unreferenced local variable
+C:\Users\Hammad Ishtiaq\source\Dsa oop\DSA\stack\stackAdt\stackAdt\stackUsingArray.cpp(49): message : while compiling class template member function 'T stackArray<T>::pop(void)'
+          with
+          [
+              T=int
+          ]
+C:\Users\Hammad Ishtiaq\source\Dsa oop\DSA\stack\stackAdt\stackAdt\stackUsingArray.cpp(76): message : see reference to function template instantiation 'T stackArray<T>::pop(void)' being compiled
+          with
+          [
+              T=int
+          ]
+C:\Users\Hammad Ishtiaq\source\Dsa oop\DSA\stack\stackAdt\stackAdt\stackUsingArray.cpp(70): message : see reference to class template instantiation 'stackArray<int>' being compiled
+C:\Users\Hammad Ishtiaq\source\Dsa oop\DSA\stack\stackAdt\stackAdt\stackUsingArray.cpp(57): warning C4715: 'stackArray<int>::pop': not all control paths return a value
+  stackAdt.vcxproj -> C:\Users\Hammad Ishtiaq\source\Dsa oop\DSA\stack\stackAdt\Debug\stackAdt.exe

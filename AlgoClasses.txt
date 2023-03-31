@@ -1,0 +1,43 @@
+brute force-based algorithm, greedy algorithm, recursive algorithm, backtracking algorithm, divide and conquer algorithm, dynamic programming algorithm, and randomized algorithm
+
+
+
+//////////////
+Sure, here are some classes of algorithms:
+
+Greedy algorithms: As described earlier, these algorithms make locally optimal choices at each step, hoping to find a globally optimal solution.
+
+Divide and conquer algorithms: These algorithms break down a problem into smaller sub-problems, solve them recursively, and combine their solutions to find the final solution. Merge sort and quicksort are examples of divide and conquer algorithms.
+
+Dynamic programming algorithms: These algorithms break down a problem into smaller overlapping sub-problems, solve them recursively, and store the solutions in a table to avoid redundant calculations. The Fibonacci sequence and the longest common subsequence are examples of problems that can be solved using dynamic programming.
+
+Brute force algorithms: These algorithms solve a problem by exhaustively checking every possible solution. These algorithms can be very slow and inefficient, but can sometimes be the only way to find the exact solution to a problem. Traveling Salesman Problem is one example.
+
+Randomized algorithms: These algorithms introduce randomness to the solution process, and often provide a probabilistic guarantee of finding the correct solution within a certain amount of time. Examples include randomized quicksort and the Monte Carlo algorithm.
+
+Backtracking algorithms: These algorithms solve problems by incrementally building candidates to the solutions, and discarding a candidate as soon as it is determined that the candidate cannot possibly be completed to a valid solution. Examples of problems that can be solved using backtracking include the n-Queens problem and the Sudoku problem.
+////////////
+
+
+////////////
+Greedy algorithm example: The coin change problem, where given a set of coins of different denominations and a target amount, the goal is to find the minimum number of coins needed to make up that amount.
+
+Divide and conquer algorithm example: Merge sort, where a list of elements is divided into two halves, each half is sorted recursively, and the two sorted halves are merged to create a single sorted list.
+
+Dynamic programming algorithm example: The Fibonacci sequence, where each number in the sequence is the sum of the two preceding numbers.
+
+Brute force algorithm example: The traveling salesman problem, where given a list of cities and the distances between them, the goal is to find the shortest possible route that visits each city exactly once.
+
+Randomized algorithm example: Quicksort, which is a randomized sorting algorithm that sorts an array by partitioning it into smaller sub-arrays and recursively sorting them.
+
+Backtracking algorithm example: The Sudoku problem, where the goal is to fill a 9x9 grid with digits in such a way that each column, row, and 3x3 sub-grid contains all of the digits from 1 to 9 without repetition.
+///////////
+
+
+
+
+
+
+
+
+Overriding: The method in the ancestor class is virtual. A new implementation overrides the virtual one. Redefining: The method in the ancestor class isn't virtual. Therefore the compiler has to choose which method gets used at compiletime

@@ -1,0 +1,6 @@
+﻿  StringRecursion.cpp
+C:\Users\Hammad Ishtiaq\source\Dsa oop\DSA\Recursion\Recursion\StringRecursion.cpp(8,8): warning C4018: '>': signed/unsigned mismatch
+C:\Users\Hammad Ishtiaq\source\Dsa oop\DSA\Recursion\Recursion\StringRecursion.cpp(23,11): warning C4018: '>': signed/unsigned mismatch
+C:\Users\Hammad Ishtiaq\source\Dsa oop\DSA\Recursion\Recursion\StringRecursion.cpp(33,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Hammad Ishtiaq\source\Dsa oop\DSA\Recursion\Recursion\StringRecursion.cpp(38,20): warning C4018: '<': signed/unsigned mismatch
+  Recursion.vcxproj -> C:\Users\Hammad Ishtiaq\source\Dsa oop\DSA\Recursion\Debug\Recursion.exe
