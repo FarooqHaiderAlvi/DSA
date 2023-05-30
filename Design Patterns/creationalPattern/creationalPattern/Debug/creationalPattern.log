@@ -1,6 +1,4 @@
-﻿  abstractFactory.cpp
-  creationalPattern.cpp
-  factory.cpp
-  singleton.cpp
-  Generating Code...
+﻿  singleton.cpp
+C:\Users\Hammad Ishtiaq\source\Dsa oop\DSA\Design Patterns\creationalPattern\creationalPattern\singleton.cpp(63,16): warning C4101: 's': unreferenced local variable
+C:\Users\Hammad Ishtiaq\source\Dsa oop\DSA\Design Patterns\creationalPattern\creationalPattern\singleton.cpp(63,19): warning C4101: 't': unreferenced local variable
   creationalPattern.vcxproj -> C:\Users\Hammad Ishtiaq\source\Dsa oop\DSA\Design Patterns\creationalPattern\Debug\creationalPattern.exe

@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+#include <stack>
 class bstNode {
 public:
 	int data;
@@ -9,9 +9,9 @@ public:
 	bstNode* next;
 	bstNode(int val) {
 		data = val;
-		left = NULL;
-		right = NULL;
-		next = NULL;
+		left = nullptr;
+		right = nullptr;
+		next = nullptr;
 	}
 };
 class Queue {
@@ -42,7 +42,7 @@ class Bst :public Queue {
 	bstNode* root;
 public:
 	Bst() {
-		root = NULL;
+		root = nullptr;
 	}
 
 	bstNode* getRoot() {
@@ -62,7 +62,7 @@ public:
 					temp = temp->left;
 				}
 				else {
-					prev = temp;
+					prev = temp;                            
 					temp = temp->right;
 				}
 			}
@@ -138,28 +138,113 @@ public:
 	}
 	//not work properly
 	void deleteNode(int val) {
-		bstNode* deleteNode = searchVal(val);
+		
 		bstNode* temp = root;
-		bstNode* prev = temp;
+		bstNode* parent = nullptr;
+		
 		while (temp) {
 			if (temp->data == val) {
 				break;
 			}
-			else if (temp->data > val) {
-				prev = temp;
+			else if (temp->data > val)
+			{
+				parent = temp;
 				temp = temp->left;
 			}
+				
 			else {
-				prev = temp;
+				parent = temp;
 				temp = temp->right;
 			}
 		}
-		if (deleteNode->left == NULL && deleteNode->right == NULL) {
-			deleteNode = NULL;
+		
+		if (temp) {
+
+			// if node is root and has no child
+			if (temp->left==nullptr && temp->right==nullptr && temp==root) {
+				delete temp;
+				root = nullptr;
+			}
+			//if node is root and have one child
+			else	if (temp == root && (temp->left == nullptr || temp->right == nullptr))
+			{
+				if (temp->left) {
+					root = temp->left;
+				  }
+				else {
+					root = temp->right;
+				}
+				delete temp;
+				temp = nullptr;
+			}
+			
+			//if node is not root and have no child
+			else if (temp != root && temp->left == nullptr && temp->right == nullptr)
+			{
+				delete temp;
+				temp = nullptr;
+			}
+		//	if node is not root and have one child
+			else if (temp != root && (temp->left == nullptr || temp->right == nullptr))
+			{
+				if (parent->left == temp)
+				{
+					if (temp->left) {
+						parent->left = temp->left;
+					}
+					else {
+						parent->left = temp->right;
+					}
+				}
+				else {
+
+					if (temp->left) {
+						parent->right = temp->left;
+					}
+					else {
+						parent->right = temp->right;
+					}
+				}
+				delete temp;
+				temp = nullptr;
+			}
+
+
+			else {
+				bstNode* rightMin = temp->right;
+				bstNode* rightMinParent =nullptr;
+				while (rightMin)
+				{
+					if (rightMin->left == nullptr) {
+						break;
+					}
+					rightMinParent = rightMin;
+					rightMin = rightMin->left;
+				}
+				temp->data = rightMin->data;
+
+				if (rightMinParent->left == rightMin) {
+					rightMinParent->left = rightMin->right;
+				}
+				else {
+					rightMinParent->right = rightMin->right;
+				}
+
+				delete rightMin;
+				
+			}
+
+
+
+
+
 		}
+		
 		else {
-			prev->right == NULL;
+			cout << "value not found" << endl;
 		}
+		
+		
 
 	}
 
@@ -168,16 +253,24 @@ public:
 };
 
 int main() {
+	
+
 	Bst tree;
 	int val;
-	for (int i = 0; i < 3; i++)
+	for (int i = 0; i < 8; i++)
 	{
 		cout << "Enter the value to be inserted: ";
 		cin >> val;
 		tree.insert(val);
 	}
-	tree.breathFirstTraversal();
-	cout << endl;
-	tree.deleteNode(10);
+	/*tree.breathFirstTraversal();
+	cout << endl;*/
+	cout << "enter val to be deleted::";
+	int num = 0;
+	cin >> num;
+	tree.deleteNode(num);
 	tree.preOrder(tree.getRoot());
+	
+	
+
 }

@@ -1,0 +1,15 @@
+
+Linked Lists: Linked lists are data structures consisting of nodes, where each node contains a value and a reference (pointer) to the next node in the list. Linked lists are useful for dynamic data structures that require efficient insertions and deletions at arbitrary positions.
+
+Stacks: A stack is a data structure that follows the Last-In-First-Out (LIFO) principle. It allows insertion and deletion of elements from one end, known as the top of the stack. Stacks are commonly used for tasks such as function call management, expression evaluation, and backtracking.
+
+Queues: A queue is a data structure that follows the First-In-First-Out (FIFO) principle. It allows insertion at one end (rear) and deletion at the other end (front). Queues are essential for implementing algorithms that require processing elements in a specific order, such as breadth-first search.
+
+Trees: Trees are hierarchical data structures composed of nodes connected by edges. They have a root node and may have child nodes, forming a hierarchical structure. Binary trees, binary search trees, and balanced trees (e.g., AVL trees, red-black trees) are important variations.
+
+Graphs: Graphs are versatile data structures used to represent relationships between objects. They consist of a set of vertices (nodes) connected by edges. Understanding graph representation and traversal algorithms (e.g., breadth-first search, depth-first search) is crucial for solving graph-related problems.
+
+Hash Tables: Hash tables (or hash maps) provide efficient key-value pair storage and retrieval. They use a hash function to map keys to array indices, enabling constant-time average-case access. Hash tables are widely used in various applications, such as caching, database indexing, and symbol tables.
+
+Heaps: Heaps are binary trees that satisfy the heap property, which determines the ordering of elements. They are commonly used for efficient priority queue implementations, enabling fast access to the minimum or maximum element.
+

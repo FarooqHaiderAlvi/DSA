@@ -141,6 +141,7 @@
   <ItemGroup>
     <ClCompile Include="BST.cpp" />
     <ClCompile Include="iterativeTraversal.cpp" />
+    <ClCompile Include="pointerReference.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
