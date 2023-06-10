@@ -23,6 +23,7 @@
     <ClCompile Include="postfixToInfix.cpp" />
     <ClCompile Include="stackUsingArray.cpp" />
     <ClCompile Include="stackUsingLinkList.cpp" />
+    <ClCompile Include="ValidParenthesis.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

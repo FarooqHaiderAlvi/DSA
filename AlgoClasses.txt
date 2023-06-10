@@ -41,3 +41,9 @@ Backtracking algorithm example: The Sudoku problem, where the goal is to fill a 
 
 
 Overriding: The method in the ancestor class is virtual. A new implementation overrides the virtual one. Redefining: The method in the ancestor class isn't virtual. Therefore the compiler has to choose which method gets used at compiletime
+
+
+
+
+
+"A data structure is a way of organizing and storing data in a computer's memory or storage, designed to efficiently perform operations on that data. It defines the format, organization, and manipulation rules for the data, enabling efficient access, retrieval, and modification.

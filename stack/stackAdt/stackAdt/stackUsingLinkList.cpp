@@ -1,24 +1,24 @@
 //#include <iostream>                                                
 //using namespace std;
 //
-//template<typename T>
-//struct myNode {
-//	T data;
-//	myNode* before;
+//template<typename t>
+//struct mynode {
+//	t data;
+//	mynode* before;
 //};
-//template<typename T>
-//class stackLinkList {
-//	myNode<T>* head;
+//template<typename t>
+//class stacklinklist {
+//	mynode<t>* head;
 //public:
 //
-//	stackLinkList() {
-//		head = NULL;
+//	stacklinklist() {
+//		head = null;
 //	}
-//	void push(T val) {
-//		myNode<T>* temp = new myNode<T>();
+//	void push(t val) {
+//		mynode<t>* temp = new mynode<t>();
 //		temp->data = val;
-//		temp->before = NULL;
-//		if (head == NULL) {
+//		temp->before = null;
+//		if (head == null) {
 //			head = temp;
 //		}
 //		else {
@@ -26,8 +26,8 @@
 //			head = temp;
 //		}
 //	}
-//	myNode<T>* pop() {
-//		myNode<T>* temp = head;
+//	mynode<t>* pop() {
+//		mynode<t>* temp = head;
 //		if (head) {
 //			head = head->before;
 //		}
@@ -36,13 +36,13 @@
 //};
 //
 //int main() {
-//	stackLinkList<int>s;
+//	stacklinklist<int>s;
 //	for (int i = 0; i < 3; i++) {
 //		s.push(i);
 //	}
 //	while (true)
 //	{
-//		myNode<int>* temp;
+//		mynode<int>* temp;
 //		temp = s.pop();
 //		if (temp) {
 //

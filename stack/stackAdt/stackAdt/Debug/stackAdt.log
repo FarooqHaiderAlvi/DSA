@@ -1,15 +1,18 @@
-﻿  stackUsingArray.cpp
-C:\Users\Hammad Ishtiaq\source\Dsa oop\DSA\stack\stackAdt\stackAdt\stackUsingArray.cpp(52,6): warning C4101: 't': unreferenced local variable
-C:\Users\Hammad Ishtiaq\source\Dsa oop\DSA\stack\stackAdt\stackAdt\stackUsingArray.cpp(49): message : while compiling class template member function 'T stackArray<T>::pop(void)'
+﻿  ValidParenthesis.cpp
+C:\Users\Hammad Ishtiaq\source\Dsa oop\DSA\stack\stackAdt\stackAdt\ValidParenthesis.cpp(64,2): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Hammad Ishtiaq\source\Dsa oop\DSA\stack\stackAdt\stackAdt\ValidParenthesis.cpp(62): message : while compiling class template member function 'bool stack<char>::validParenthesis(std::string)'
+C:\Users\Hammad Ishtiaq\source\Dsa oop\DSA\stack\stackAdt\stackAdt\ValidParenthesis.cpp(99): message : see reference to function template instantiation 'bool stack<char>::validParenthesis(std::string)' being compiled
+C:\Users\Hammad Ishtiaq\source\Dsa oop\DSA\stack\stackAdt\stackAdt\ValidParenthesis.cpp(98): message : see reference to class template instantiation 'stack<char>' being compiled
+C:\Users\Hammad Ishtiaq\source\Dsa oop\DSA\stack\stackAdt\stackAdt\ValidParenthesis.cpp(45,6): warning C4101: 't': unreferenced local variable
+C:\Users\Hammad Ishtiaq\source\Dsa oop\DSA\stack\stackAdt\stackAdt\ValidParenthesis.cpp(42): message : while compiling class template member function 'T stack<T>::pop(void)'
           with
           [
-              T=int
+              T=char
           ]
-C:\Users\Hammad Ishtiaq\source\Dsa oop\DSA\stack\stackAdt\stackAdt\stackUsingArray.cpp(76): message : see reference to function template instantiation 'T stackArray<T>::pop(void)' being compiled
+C:\Users\Hammad Ishtiaq\source\Dsa oop\DSA\stack\stackAdt\stackAdt\ValidParenthesis.cpp(76): message : see reference to function template instantiation 'T stack<T>::pop(void)' being compiled
           with
           [
-              T=int
+              T=char
           ]
-C:\Users\Hammad Ishtiaq\source\Dsa oop\DSA\stack\stackAdt\stackAdt\stackUsingArray.cpp(70): message : see reference to class template instantiation 'stackArray<int>' being compiled
-C:\Users\Hammad Ishtiaq\source\Dsa oop\DSA\stack\stackAdt\stackAdt\stackUsingArray.cpp(57): warning C4715: 'stackArray<int>::pop': not all control paths return a value
+C:\Users\Hammad Ishtiaq\source\Dsa oop\DSA\stack\stackAdt\stackAdt\ValidParenthesis.cpp(50): warning C4715: 'stack<char>::pop': not all control paths return a value
   stackAdt.vcxproj -> C:\Users\Hammad Ishtiaq\source\Dsa oop\DSA\stack\stackAdt\Debug\stackAdt.exe

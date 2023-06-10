@@ -255,22 +255,23 @@ public:
 int main() {
 	
 
-	Bst tree;
+	/*Bst tree;
 	int val;
 	for (int i = 0; i < 8; i++)
 	{
 		cout << "Enter the value to be inserted: ";
 		cin >> val;
 		tree.insert(val);
-	}
+	}*/
 	/*tree.breathFirstTraversal();
 	cout << endl;*/
-	cout << "enter val to be deleted::";
+	/*cout << "enter val to be deleted::";
 	int num = 0;
 	cin >> num;
 	tree.deleteNode(num);
 	tree.preOrder(tree.getRoot());
-	
+	*/
+	cout << sizeof(long long int*);
 	
 
 }
